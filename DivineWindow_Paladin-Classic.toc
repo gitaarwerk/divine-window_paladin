@@ -1,0 +1,29 @@
+## Title: Divine Window: Paladin
+## Title-enEN: Divine Window: Paladin
+## Notes: Paladin stained glass windows for Divine Window
+## Notes-enEN: a non-typical configurable interface using stained glass design
+
+## RequiredDeps: DivineWindow
+
+## Interface: 110002
+## X-Min-Interface: 110002
+
+## Version: @project-version@
+## IconTexture: Interface\AddOns\DivineWindow_Paladin\addonIcon.jpg
+
+## Author: Darkrider, Dunemaul (EU)
+## LoadOnDemand: 0
+## DefaultState: enabled
+
+## X-Category: UI, Paladin
+## X-Date: @build-date@
+## X-ResetVarsDate: 2024-10-21T00:00:00Z
+## X-License: All Rights Reserved
+## X-Website: https://www.curseforge.com/wow/addons/divine-window-paladin
+
+## X-Curse-Project-ID: 1104799
+## X-Wago-ID: b6XVQBGp
+
+Src/Init.lua
+Src/Locales/English.lua
+Src/DefaultWindowSettings/index.lua
