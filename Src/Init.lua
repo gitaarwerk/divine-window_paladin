@@ -74,9 +74,6 @@ local function registerEvents()
 end
 
 local function init()
-    if (DivineWindow) then
-        print("[DW]: Initializing DivineWindow");
-    end
     DivineWindow.frame = registerEvents();
     DivineWindow.frame:SetScript("OnEvent", eventHandler);
 end
