@@ -1,15 +1,19 @@
 ## Title: Divine Window: Paladin
 ## Title-enEN: Divine Window: Paladin
+
 ## Notes: Paladin stained glass windows for Divine Window
 ## Notes-enEN: a non-typical configurable interface using stained glass design
 
 ## RequiredDeps: DivineWindow
 
-## Interface: 11007
-## X-Min-Interface: 11007
+## Interface: 110007
+## X-Min-Interface: 110007
 
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\DivineWindow_Paladin\addonIcon.jpg
+
+## SavedVariables: DivineWindowGlobalVars
+## SavedVariablesPerCharacter: DivineWindowLocalVars
 
 ## Author: Darkrider, Dunemaul (EU)
 ## LoadOnDemand: 0
