@@ -4,6 +4,7 @@ local function addLocales()
     DivineWindow.Locales[language].AvailableWindows.Paladin = "Paladin";
     DivineWindow.Locales[language].AvailableWindows.Holy = "Holy";
     DivineWindow.Locales[language].AvailableWindows.Retribution = "Retribution";
+    DivineWindow.Locales[language].AvailableWindows.Protection = "Protection";
 
     DivineWindow.Locales[language].Paladin = {
         Holy = {
@@ -34,7 +35,22 @@ local function addLocales()
                 FX_1 = "Ashbringer's fire (3)",
                 FX_2 = "Glowing eyes (9)",
             }
-        }
+        },
+        Protection = {
+            WindowPart = {
+                PART_1 = "A paladin's armor (31)",
+                PART_2 = "Shield (21)",
+                PART_3 = "Sword (3)",
+                PART_4 = "Consecration (12)",
+                PART_5 = "Window (26)",
+                PART_6 = "Window - Halo (14)",
+                PART_7 = "Window - Left arrow (8)",
+                PART_8 = "Window - Right arrow (8)",
+                PART_9 = "Window - Top arrow (8)",
+                FX_1 = "Glowing helmet (12)",
+                FX_2 = "Empowered weapons (11)",
+            }
+        },
     }
 end
 
@@ -42,6 +58,7 @@ local function addToMenu()
     DivineWindow.ConfigurationScreen.AvailableWindows["Paladin"] = {
         ["Holy"] = { "Paladin", "Holy" },
         ["Retribution"] = { "Paladin", "Retribution" },
+        ["Protection"] = { "Paladin", "Protection" },
     }
 end
 

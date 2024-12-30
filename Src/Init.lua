@@ -47,6 +47,22 @@ local function registerToWindowIndex()
                 FX_1 = 3,
                 FX_2 = 9,
             }
+        },
+        Protection = {
+            Directory = "Interface\\AddOns\\DivineWindow_Paladin\\Src\\Windows\\Protection",
+            FacetCount = {
+                PART_1 = 31,
+                PART_2 = 21,
+                PART_3 = 3,
+                PART_4 = 12,
+                PART_5 = 26,
+                PART_6 = 14,
+                PART_7 = 8,
+                PART_8 = 8,
+                PART_9 = 8,
+                FX_1 = 12,
+                FX_2 = 11,
+            }
         }
     }
 end
