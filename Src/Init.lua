@@ -7,8 +7,7 @@ end;
 local function registerToAvailableWindowMenu()
     DivineWindow.Support.AvailableWindows.Classes.Paladin = {};
 
-    -- Add to supported specialisations, so the user can have
-    -- use a default set-up
+    -- Add to supported specialisations, so the user can have use a default set-up
     DivineWindow.Support.ClassesAndSpecialisations.PALADIN = {
         "Retribution",
         "Holy"
