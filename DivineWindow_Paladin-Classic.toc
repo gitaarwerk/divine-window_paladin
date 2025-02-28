@@ -23,10 +23,9 @@
 ## X-Date: @build-date@
 ## X-ResetVarsDate: 2024-10-21T00:00:00Z
 ## X-License: All Rights Reserved
-## X-Website: https://www.curseforge.com/wow/addons/divine-window-paladin
 
+## X-Website: https://www.curseforge.com/wow/addons/divine-window-paladin
 ## X-Curse-Project-ID: 1104799
-## X-Wago-ID: b6XVQBGp
 
 Src/Init.lua
 Src/Locales/English.lua
