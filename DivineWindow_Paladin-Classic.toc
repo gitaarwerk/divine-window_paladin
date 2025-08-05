@@ -6,8 +6,8 @@
 
 ## RequiredDeps: DivineWindow
 
-## Interface: 11505, 11506
-## X-Min-Interface: 11503
+## Interface: 11505, 11507
+## X-Min-Interface: 11507
 
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\DivineWindow_Paladin\addonIcon.jpg
